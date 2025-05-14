@@ -55,10 +55,9 @@ unizone-backend/
 ├── chat_service/
 ├── .gitignore
 ├── build.gradle.kts
-└── settings.gradle.kts
+├── settings.gradle.kts
 
 Each folder represents an **independent microservice**, with its own configuration and Gradle build file.
-
 ---
 
 ## 🚀 How to Run
