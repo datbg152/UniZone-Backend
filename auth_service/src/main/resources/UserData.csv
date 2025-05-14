@@ -1,0 +1,6 @@
+student_id,student_name,email,password,role
+001,Kelvin,kelvin@gmail.com,1234567,admin
+002,Minh Duc,minhduc.com,1234567,student
+003,Jennie,jennie@gmail.com,1234567,student
+004,John,John@gmail.com,1234567,student
+005,Wilson,wilson@gmail.com,1234567,student

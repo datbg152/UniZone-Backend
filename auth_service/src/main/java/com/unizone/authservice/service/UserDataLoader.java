@@ -34,8 +34,8 @@ public class UserDataLoader {
 
             List<User> users = new ArrayList<>();
             for (String[] row : rows) {
-                String encodedPassword = passwordEncoder.encode(row[4]); // hash password "1234567"
-                users.add(new User(row[0], row[1], row[2], row[3], encodedPassword));
+                String encodedPassword = passwordEncoder.encode(row[3]); // hash password "1234567"
+                users.add(new User(row[0], row[1], row[2],encodedPassword, row[4]));
             }
 
             //userRepository.deleteAll();

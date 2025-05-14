@@ -11,8 +11,5 @@ public class AuthServiceApplication {
         SpringApplication.run(AuthServiceApplication.class, args);
     }
 
-    @PostConstruct
-    public void printAppUrl() {
-        System.out.println("🚀 App is running at: http://localhost:8080/");
-    }
+
 }
