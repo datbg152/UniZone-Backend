@@ -49,13 +49,12 @@ and operate independently while applying real-world backend techniques such as *
 
 ## 🏗️ Project Structure
 
-unizone-backend/
-├── auth_service/
-├── newsfeed_service/
-├── chat_service/
-├── .gitignore
-├── build.gradle.kts
-├── settings.gradle.kts
+	•	📁 auth_service/: Auth & JWT management
+	•	📁 newsfeed_service/: Newsfeed and follow logic
+	•	📁 chat_service/: Real-time chat using WebSocket & RabbitMQ
+	•	⚙️ .gitignore: Ignoring build/IDE files
+	•	⚙️ build.gradle.kts: Gradle root build file
+	•	⚙️ settings.gradle.kts: Multi-service project settings
 
 Each folder represents an **independent microservice**, with its own configuration and Gradle build file.
 ---
